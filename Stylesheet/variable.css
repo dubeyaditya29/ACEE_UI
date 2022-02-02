@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Montserrat&family=Roboto+Mono&family=Source+Code+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+:root {
+  --color-navyBlue: #1e3d58;
+  --color-royalBlue: #057dcd;
+  --color-blueGrotto: #43b0f1;
+  --color-white: #e8eef1;
+  --color-grey: #bababa;
+  --avatar-small: 1.875rem;
+  --avatar-medium: 3.125rem;
+  --avatar-large: 5rem;
+  --avatar-basic: 4.375rem;
+}
