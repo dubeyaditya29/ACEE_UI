@@ -1,0 +1,58 @@
+@import url("../../Stylesheet/variable.css");
+body {
+  background-color: var(--color-white);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.heading {
+  color: var(--color-navyBlue);
+  border-bottom: 2px solid var(--color-grey);
+}
+.leftNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  gap: 1rem;
+}
+xmp {
+  border: 2px solid var(--color-grey);
+  padding: 1rem;
+  width: 80%;
+  color: var(--color-royalBlue);
+}
+.avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.avatar-small {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.avatar-medium {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.avatar-large {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
