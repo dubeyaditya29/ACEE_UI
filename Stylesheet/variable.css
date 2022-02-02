@@ -11,4 +11,8 @@
   --color-blueGrotto: #43b0f1;
   --color-white: #e8eef1;
   --color-grey: #bababa;
+  --avatar-small: 1.875rem;
+  --avatar-medium: 3.125rem;
+  --avatar-large: 5rem;
+  --avatar-basic: 4.375rem;
 }
