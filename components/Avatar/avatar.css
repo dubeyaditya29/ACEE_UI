@@ -25,14 +25,10 @@ body {
   margin-bottom: 1rem;
 }
 .leftNav {
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   margin: 2rem;
   gap: 1rem;
 }
-xmp {
+.code-snippet {
   border: 2px solid var(--color-grey);
   padding: 1rem;
   width: 80%;
