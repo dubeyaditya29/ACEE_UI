@@ -4,7 +4,41 @@
   padding: 0;
   font-family: "Roboto Mono", monospace;
 }
-
+body {
+  background-color: var(--color-white);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.heading {
+  color: var(--color-navyBlue);
+  border-bottom: 2px solid var(--color-grey);
+}
+.heading-main {
+  padding-left: 45%;
+  border-bottom: 2px solid var(--color-grey);
+  margin-bottom: 1rem;
+}
+.leftNav {
+  margin: 2rem;
+  gap: 1rem;
+}
+.code-snippet {
+  border: 2px solid var(--color-grey);
+  padding: 1rem;
+  width: 80%;
+  color: var(--color-royalBlue);
+}
 :root {
   --color-navyBlue: #1e3d58;
   --color-royalBlue: #057dcd;
@@ -15,4 +49,9 @@
   --avatar-medium: 3.125rem;
   --avatar-large: 5rem;
   --avatar-basic: 4.375rem;
+  --simple-alert: #ebebeb;
+  --success-alert: #a8f0c6;
+  --danger-alert: #f7a7a3;
+  --warning-alert: #ffd48a;
+  --box-shadow-for-alert: #ccc;
 }

@@ -1,0 +1,35 @@
+@import url("../../Stylesheet/variable.css");
+
+.alert {
+  width: 50%;
+  margin: 1.25rem auto;
+  padding: 1.875rem;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 0.938rem 5px var(--box-shadow-for-alert);
+}
+.close {
+  position: absolute;
+  width: 1.875rem;
+  opacity: 0.5;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  right: 1.25rem;
+  top: 1.563rem;
+  text-align: center;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+.simple-alert {
+  background-color: var(--simple-alert);
+}
+.success-alert {
+  background-color: var(--success-alert);
+}
+.danger-alert {
+  background-color: var(--danger-alert);
+}
+.warning-alert {
+  background-color: var(--warning-alert);
+}
