@@ -1,39 +1,5 @@
 @import url("../../Stylesheet/variable.css");
-body {
-  background-color: var(--color-white);
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
-  padding: 2rem;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-.heading {
-  color: var(--color-navyBlue);
-  border-bottom: 2px solid var(--color-grey);
-}
-.heading-main {
-  padding-left: 45%;
-  border-bottom: 2px solid var(--color-grey);
-  margin-bottom: 1rem;
-}
-.leftNav {
-  margin: 2rem;
-  gap: 1rem;
-}
-.code-snippet {
-  border: 2px solid var(--color-grey);
-  padding: 1rem;
-  width: 80%;
-  color: var(--color-royalBlue);
-}
+
 .avatar {
   height: var(--avatar-basic);
   width: var(--avatar-basic);
