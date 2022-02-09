@@ -45,6 +45,9 @@ body {
   --color-blueGrotto: #43b0f1;
   --color-white: #e8eef1;
   --color-grey: #bababa;
+  --color-green: #6aa84f;
+  --color-red: #f44336;
+  --color-yellow: #ffd966;
   --avatar-small: 1.875rem;
   --avatar-medium: 3.125rem;
   --avatar-large: 5rem;
@@ -54,4 +57,13 @@ body {
   --danger-alert: #f7a7a3;
   --warning-alert: #ffd48a;
   --box-shadow-for-alert: #ccc;
+  --badge-color-white: #ffffff;
+  --line-ht-sm: 1;
+  --line-ht-md: 1.3;
+  --line-ht-lg: 2;
+  --badge-sm: 1rem;
+  --badge-md: 1.3rem;
+  --badge-lg: 1.9rem;
+  --border-radius-50: 50%;
+  --badge-loc: -5px;
 }
