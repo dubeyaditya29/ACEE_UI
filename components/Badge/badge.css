@@ -1,0 +1,89 @@
+@import url("../../Stylesheet/variable.css");
+@import url("../Avatar/avatar.css");
+/* BODY */
+
+.badge-container {
+  display: flex;
+  align-items: inherit;
+}
+.badge {
+  position: relative;
+  align-items: inherit;
+  margin: 1.2rem;
+}
+
+/* BADGE ITEM */
+
+.badge-item {
+  position: absolute;
+  text-align: center;
+}
+
+/* ICON SIZE */
+
+.icon-size-sm {
+  font-size: 2rem;
+}
+.icon-size-md {
+  font-size: 4rem;
+}
+.icon-size-lg {
+  font-size: 6rem;
+}
+
+/* BADGE SIZE */
+
+.badge-sm {
+  width: var(--badge-sm);
+  height: var(--badge-sm);
+  line-height: var(--line-ht-sm);
+  border-radius: var(--border-radius-50);
+}
+.badge-md {
+  width: var(--badge-md);
+  height: var(--badge-md);
+  line-height: var(--line-ht-md);
+  border-radius: var(--border-radius-50);
+}
+.badge-lg {
+  width: var(--badge-lg);
+  height: var(--badge-lg);
+  line-height: var(--line-ht-lg);
+  border-radius: var(--border-radius-50);
+}
+
+/* BADGE LOCATION */
+
+.badge-loc-top-left {
+  top: var(--badge-loc);
+  left: var(--badge-loc);
+}
+.badge-loc-top-right {
+  top: var(--badge-loc);
+  right: var(--badge-loc);
+}
+.badge-loc-bottom-left {
+  bottom: 0;
+  left: var(--badge-loc);
+}
+.badge-loc-bottom-right {
+  bottom: 0;
+  right: var(--badge-loc);
+}
+
+/* BADGE COLOR */
+
+.badge-white {
+  background-color: var(--badge-color-white);
+}
+.badge-green {
+  background-color: var(--color-green);
+}
+.badge-red {
+  background-color: var(--color-red);
+}
+.badge-yellow {
+  background-color: var(--color-yellow);
+}
+
+/* AVATAR IMAGE */

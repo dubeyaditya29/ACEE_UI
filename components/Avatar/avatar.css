@@ -6,19 +6,19 @@
   border-radius: 50%;
 }
 
-.avatar-small {
+.avatar-sm {
   height: var(--avatar-small);
   width: var(--avatar-small);
   border-radius: 50%;
 }
 
-.avatar-medium {
+.avatar-md {
   height: var(--avatar-medium);
   width: var(--avatar-medium);
   border-radius: 50%;
 }
 
-.avatar-large {
+.avatar-lg {
   height: var(--avatar-large);
   width: var(--avatar-large);
   border-radius: 50%;

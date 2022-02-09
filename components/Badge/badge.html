@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge</title>
+    <link rel="stylesheet" href="./badge.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="leftNav">
+        <div class="content-header">
+          <h2 class="heading-main">Badge</h2>
+        </div>
+        <div class="content-description">
+          <p>
+            Badges are used to convey some messages/information to the user. For
+            example badge on a cart icon represents the quantity of items in a
+            cart or badge on applications represents the unseen messages on the
+            account and alot more. We have used
+            <b> <a href="https://fontawesome.com/" class="font">FontAwesome</a></b> for all the icons you see on the page.
+            You can use different classes to customize the badge like
+            badge-sm , badge-loc-top-left, badge-white to make badge looks appealing.
+          </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2 class="heading">Badge on an icons (of variable sizes)</h2>
+
+        <p>
+          Add <span>.badge-item</span> to apply any badge to an icon or an avatar.Check the below to see
+          examples of how to implement this in your code.
+        </p>
+
+        <div class="badge-container">
+            <div class="badge">
+                <div class="fas fa-envelope icon-size-sm"></div>
+                <div class="badge-item badge-sm badge-loc-top-left badge-white">
+                  9
+                </div>
+              </div>
+              <div class="badge">
+                  <div class="fas fa-envelope icon-size-md"></div>
+                  <div class="badge-item badge-md badge-loc-top-left badge-white">
+                    99
+                  </div>
+              </div>
+              <div class="badge">
+                  <div class="fas fa-envelope icon-size-lg"></div>
+                  <div class="badge-item badge-lg badge-loc-top-left badge-white">
+                    999
+                  </div>
+                </div>
+              </div>
+      
+        </div>
+        
+        <pre class="code-snippet">
+            &lt;div class="badge"&gt;
+             &lt;div class="fas fa-envelope icon-size-sm"&gt;&lt;/div&gt;
+              &lt;div class="badge-item badge-sm badge-loc-top-left badge-white"&gt;
+                  9
+                &lt;/div>
+            &lt;/div>
+             &lt;div class="badge">
+               &lt;div class="fas fa-envelope icon-size-md"&gt;&lt;/div&gt;
+                &lt;div class="badge-item badge-md badge-loc-top-left badge-white"&gt;
+                    99
+                &lt;/div&gt;
+            &lt;/div>
+             &lt;div class="badge"&gt;
+                &lt;div class="fas fa-envelope icon-size-lg"&gt;&lt;/div&gt;
+                  &lt;div class="badge-item badge-lg badge-loc-top-left badge-white"&gt;
+                    999
+                  &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </pre>
+
+        <hr />
+
+        <h2 class="heading">Badge On Avatars</h2>
+
+       
+
+        <div class="badge-container">
+            <div class="badge">
+                <div class="avatar-image">
+                    <img class="avatar-sm" src="../../assets/my-img.jpg" alt="avatar">
+                    <div class="badge-item badge-sm badge-loc-top-left badge-green"></div>
+                </div>
+              </div>
+              <div class="badge">
+                <div class="avatar-image">
+                    <img class="avatar-md" src="../../assets/my-img.jpg" alt="avatar">
+                    <div class="badge-item badge-md badge-loc-top-right badge-red"></div>
+                </div>
+                  
+              </div>
+              <div class="badge">
+                <div class="avatar-image">
+                    <img class="avatar-lg" src="../../assets/my-img.jpg" alt="avatar">
+                    <div class="badge-item badge-lg badge-loc-bottom-right badge-yellow"></div>
+                </div>
+                </div>
+              </div>
+      
+        </div>
+        
+
+        <pre class="code-snippet">
+            &lt;div class="badge"&gt;
+             &lt;div class="avatar-image"&gt;
+               &lt;img class="avatar-sm" src="../../assets/my-img.jpg" alt="avatar"&gt;
+                &lt;div class="badge-item badge-sm badge-loc-top-left badge-green"&gt;&lt;/div&gt;
+                 &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;div class="badge"&gt;
+               &lt;div class="avatar-image"&gt;
+                  &lt;img class="avatar-md" src="../../assets/my-img.jpg" alt="avatar"&gt;
+                   &lt;div class="badge-item badge-md badge-loc-top-left badge-red"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                  
+             &lt;/div&gt;
+              &lt;div class="badge"&gt;
+               &lt;div class="avatar-image"&gt;
+                  &lt;img class="avatar-lg" src="../../assets/my-img.jpg" alt="avatar"&gt;
+                    &lt;div class="badge-item badge-lg badge-loc-top-left badge-yellow"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+               &lt;/div&gt;
+              &lt;/div&gt;
+        </pre>
+
+      
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/daef01c36c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
