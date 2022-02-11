@@ -18,13 +18,13 @@
   border-radius: 1rem 1rem 0 0;
 }
 .card-title {
-  padding: var(--card-padding);
+  padding: 0 0 0.8px 6.4rem;
 }
 .card-footer {
   align-items: center;
 }
 .card-description {
-  padding: var(--card-padding);
+  padding: 0 0 8px 6.4px;
 }
 
 .badge-color {
@@ -68,7 +68,7 @@
   border-radius: 0 1rem 0 0;
 }
 .shadow {
-  box-shadow: var(--card-shadow);
+  box-shadow: 5px 5px 10px;
 }
 .only-text .card-title {
   border-radius: 1rem 1rem 0 0;
