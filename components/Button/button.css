@@ -8,8 +8,8 @@
   font-weight: var(--text-bold);
   color: var(--color-white);
   outline: auto;
-  border-radius: 0.5rem;
-  box-shadow: 3px 3px 0px rgb(119 136 153);
+  border-radius: 8px;
+  box-shadow: 3px 3px 0px rgb(119, 136, 153);
   margin: 1rem;
 }
 .hyper-link {
