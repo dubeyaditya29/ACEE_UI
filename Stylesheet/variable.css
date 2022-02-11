@@ -38,7 +38,9 @@ body {
   padding: 1rem;
   width: 80%;
   color: var(--color-royalBlue);
+  overflow: scroll;
 }
+
 :root {
   --color-navyBlue: #1e3d58;
   --color-royalBlue: #057dcd;
@@ -66,4 +68,11 @@ body {
   --badge-lg: 1.9rem;
   --border-radius-50: 50%;
   --badge-loc: -5px;
+  --button-color-danger: #fc4f4f;
+  --button-color-blue: #2666cf;
+  --button-color-success: #146356;
+  --button-color-default: #1e3d58;
+  --button-color-secondary: #bf9270;
+  --text-bold: 600;
+  --card-shadow: rgba(255, 255, 255, 0);
 }
