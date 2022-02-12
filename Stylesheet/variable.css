@@ -36,7 +36,7 @@ body {
 .code-snippet {
   border: 2px solid var(--color-grey);
   padding: 1rem;
-  min-width: 31.25rem;
+  min-width: 32rem;
   color: var(--color-royalBlue);
 }
 :root {
