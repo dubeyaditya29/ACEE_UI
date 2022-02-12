@@ -36,7 +36,7 @@ body {
 .code-snippet {
   border: 2px solid var(--color-grey);
   padding: 1rem;
-  width: 80%;
+  min-width: 32rem;
   color: var(--color-royalBlue);
   overflow: scroll;
 }
