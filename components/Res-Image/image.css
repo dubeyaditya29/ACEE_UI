@@ -1,0 +1,23 @@
+@import url("../../Stylesheet/variable.css");
+
+.image-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  border: 2px solid var(--color-navyBlue);
+  padding: 3rem;
+}
+.round-image {
+  border-radius: var(--border-radius-50);
+}
+.responsive-image {
+  max-width: 35rem;
+}
+.round-image {
+  object-fit: cover;
+  width: 11rem;
+  height: 11rem;
+}
