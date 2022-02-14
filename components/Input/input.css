@@ -1,0 +1,62 @@
+@import url("../../Stylesheet/variable.css");
+@import url("../Button/button.css");
+
+/* CONTAINER */
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 3rem;
+}
+
+/* DEFAULT INPUT */
+
+.input {
+  position: relative;
+}
+.df-input {
+  width: 100%;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+/* INPUT SIZES */
+
+.input-sm {
+  font-size: 14.5px;
+  padding: 8px 3.5px;
+}
+.input-md {
+  font-size: 1.2rem;
+  padding: 15px 8px;
+}
+
+/* BORDER RADIUS */
+
+.border-radius {
+  border-radius: 6.5px;
+}
+.see-pass {
+  cursor: pointer;
+}
+.fa-eye::before {
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+  top: 0.7rem;
+}
+
+/* FORM */
+
+.form {
+  border: 2px solid var(--color-navyBlue);
+  padding: 3rem 3rem;
+}
+
+.forgot-pass-link,
+.sign-up {
+  text-decoration: none;
+  margin-right: 0.5rem;
+  color: var(--color-navyBlue);
+}

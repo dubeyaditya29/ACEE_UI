@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+    <link rel="stylesheet" href="./input.css" />
+    
+  </head>
+  <body>
+    <main class="container">
+      <div class="leftNav">
+        <div class="content-header">
+          <h2 class="heading-main">Input</h2>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2 class="heading">Text Input</h2>
+
+        <p>
+          Here we have two variants of input use .input-sm and .input-md to resize it. Check the below example.
+        </p>
+
+        <div class="input-container">
+            <div class="input">
+                <input type="text" class="df-input input-sm border-radius" placeholder="Enter Name"/>
+            </div>
+            <div class="input">
+                <input type="text" class="df-input input-md border-radius" placeholder="Enter Name"/>
+            </div>
+        </div>
+
+        <pre class="code-snippet">
+            &lt;div class="input"&gt;
+                &lt;input type="text" class="df-input input-sm border-radius" placeholder="Enter Name"/&gt;
+            &lt;/div&gt;
+            &lt;div class="input"&gt;
+                &lt;input type="text" class="df-input input-md border-radius" placeholder="Enter Name"/&gt;
+            &lt;/div&gt;
+        </pre>
+
+        <hr />
+
+        <h2 class="heading">Password Input</h2>
+        <p>
+            Add the below password snippet. Also an eye button is added to enable that extra layer of protection use the below javascript snippet to use that.
+        </p>
+        <div class="input-container">
+            <div class="input">
+                <input id="inp-password" type="password" class="df-input input-md border-radius" placeholder="Enter Password"/>
+                <i id="pass-icon" class="fas fa-eye"></i>
+            </div>
+        </div>
+
+        <pre class="code-snippet">
+            &lt;div class="input"&gt;
+                &lt;input id="inp-password" type="password" class="df-input input-md border-radius" placeholder="Enter Password"/&gt;
+                &lt;div class="see-pass"&gt;
+                    &lt;i id="pass-icon" class="fas fa-eye"&gt;&lt;/i&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </pre>
+
+        <h2 class="heading">Javascript snippet</h2>
+
+        <pre class="code-snippet">
+            const content = document.querySelector("#inp-password");
+            const seePassword = document.querySelector("#pass-icon");
+    
+            seePassword.addEventListener("click", () => {
+                const type = content.getAttribute("type") === "password" ? "text" : "password";
+                content.setAttribute("type", type);
+            });
+        </pre>
+        <h2 class="heading">Form Example</h2>
+
+        <form action="#" class="form">
+            <h2 class="heading-main">Login</h2>
+            <label for="username" class="username">Enter Username</label>
+            <input class="df-input input-md border-radius" name="username"/>
+            <label for="password" class="password">Enter Password</label>
+            <div class="input">
+                <input type="password" class="df-input input-md border-radius"/>
+                <div class="see-pass">
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="submit-btn">
+                <a class="hyper-link" href="#">
+                    <button class="btn btn-size-sm btn-color-df">Login</button>
+                </a>
+                <a href="" class="forgot-pass-link">forgot password?</a>
+                <a href="" class="sign-up">Sign Up</a>
+            </div>
+        </form>
+
+        <pre class="code-snippet">
+            &lt;form action="#" class="form">
+                &lt;h2 class="heading-main"&gt;Login&lt;/h2&gt;
+                &lt;label for="username" class="username">Enter Username&lt;/label&gt;
+                &lt;input class="df-input input-md border-radius" name="username"/&gt;
+                &lt;label for="password" class="password"&gt;Enter Password&lt;/label&lt;
+                &lt;div class="input"&gt;
+                    &lt;input type="password" class="df-input input-md border-radius"/&gt;
+                    &lt;div class="see-pass"&gt;
+                        &lt;i class="fas fa-eye"&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="submit-btn"&gt;
+                    &lt;a class="hyper-link" href="#"&gt;
+                        &lt;button class="btn btn-size-sm btn-color-df"&gt;Login&lt;/button&gt;
+                    &lt;/a&gt;
+                    &lt;a href="" class="forgot-pass-link"&gt;forgot password?&lt;/a&gt;
+                    &lt;a href="" class="sign-up"&gt;Sign Up&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/form&gt;
+        </pre>
+        
+    </main>
+    <script type="text/javascript" src="../../Scripts/see-pass.js"></script>
+    <script src="https://kit.fontawesome.com/daef01c36c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
