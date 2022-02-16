@@ -11,7 +11,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: inherit;
   margin: 2rem;
   padding: 2rem;
 }
