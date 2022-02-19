@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Montserrat&family=Roboto+Mono&family=Source+Code+Pro&display=swap");
-@import url("https://kit.fontawesome.com/daef01c36c.js");
+
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +28,8 @@ body {
 .heading-main {
   /* padding-left: 45%; */
   border-bottom: 2px solid var(--color-grey);
-  margin-bottom: 1rem;
+  margin-bottom: var(--size-6);
+  width: var(--width-100);
 }
 .leftNav {
   margin: 2rem;
@@ -43,6 +44,43 @@ body {
 }
 
 :root {
+  --size-1: 4px;
+  --size-2: 8px;
+  --size-3: 0.75rem;
+  --size-4: 1rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-7: 1.75rem;
+  --size-8: 2rem;
+  --size-9: 2.25rem;
+  --size-10: 2.5rem;
+  --size-11: 2.75rem;
+  --size-12: 3rem;
+  --size-13: 3.25rem;
+  --size-14: 3.5rem;
+  --size-15: 3.75rem;
+  --size-16: 4rem;
+  --size-17: 4.25rem;
+  --size-18: 4.5rem;
+  --size-19: 4.75rem;
+  --size-20: 5rem;
+  --size-40: 18.75rem;
+  --size-28: 12.813;
+  --width-100: 100%;
+  --width-60: 60%;
+  --width-70: 70%;
+  --width-80: 80%;
+  --width-50: 50%;
+  --width-40: 40%;
+  --width-30: 30%;
+  --bold-100: 100;
+  --bold-200: 200;
+  --bold-300: 300;
+  --bold-400: 400;
+  --screen-size-sm: 40rem;
+  --screen-size-md: 48rem;
+  --screen-size-lg: 64rem;
+  --screen-size-xl: 80rem;
   --color-navyBlue: #1e3d58;
   --color-royalBlue: #057dcd;
   --color-blueGrotto: #43b0f1;
