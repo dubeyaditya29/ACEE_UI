@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./Stylesheet/final.style.css" />
+    <title>ACEE.UI</title>
+    <link rel="icon" type="image/x-icon" href="/assets/ACEE_UI_LOGO.PNG" />
+    <link rel="stylesheet" href="./landingPage.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -15,7 +16,9 @@
         </a>
       </div>
       <ul class="list">
-        <li class="list_item"><a class="list_item--link" href="#">HOME</a></li>
+        <li class="list_item">
+          <a class="list_item--link" href="#">HOME</a>
+        </li>
         <li class="list_item">
           <a class="list_item--link" href="#">DOWNLOAD</a>
         </li>
@@ -43,6 +46,11 @@
           </a>
         </li>
       </ul>
+      <div class="burger">
+        <div class="burger-logo">
+          <i class="far fa-caret-square-down fa-lg"></i>
+        </div>
+      </div>
     </nav>
     <main class="container">
       <div class="sub_container">
@@ -69,14 +77,8 @@
         <div class="installation_guide">
           <h1 class="heading_main">Installation</h1>
           <iframe
+            class="frame"
             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cli%2520XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX%253C%252Fli%253E"
-            style="
-              width: 766px;
-              height: 205px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
@@ -84,34 +86,37 @@
       </div>
     </main>
     <footer class="footer">
-      <ul class="list">
-        <li class="list_item">
-          <a class="list_item--link" href="https://twitter.com/jn_dubey">
+      <ul class="footer-list">
+        <li class="footer-list_item">
+          <a class="footer-list_item--link" href="https://twitter.com/jn_dubey">
             <i class="fab fa-twitter"></i>
           </a>
         </li>
-        <li class="list_item">
+        <li class="footer-list_item">
           <a
-            class="list_item--link"
+            class="footer-list_item--link"
             href="https://www.linkedin.com/in/aditya-dubey-47ba6870/"
           >
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
-        <li class="list_item">
+        <li class="footer-list_item">
           <a
-            class="list_item--link"
+            class="footer-list_item--link"
             href="https://github.com/dubeyaditya29/ACEE_UI"
           >
             <i class="fab fa-github"></i>
           </a>
         </li>
       </ul>
-      <h3 class="footer-h3">Made with 🧡 by Aditya Dubey</h3>
+      <div class="footer-h3">
+        <h3>Made with 🧡 by Aditya Dubey</h3>
+      </div>
     </footer>
     <script
       src="https://kit.fontawesome.com/daef01c36c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -29,6 +29,7 @@ body {
   /* padding-left: 45%; */
   border-bottom: 2px solid var(--color-grey);
   margin-bottom: var(--size-6);
+  width: var(--width-100);
 }
 .leftNav {
   margin: 2rem;
@@ -42,85 +43,6 @@ body {
   overflow: scroll;
 }
 
-/* LANDING-PAGE */
-
-.navbar {
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: var(--width-100);
-  min-height: var(--size-19);
-  background-color: var(--color-navyBlue);
-  justify-content: flex-start;
-  align-items: center;
-  gap: var(--size-9);
-  padding-left: var(--size-7);
-  z-index: 10;
-}
-.fa-place-of-worship {
-  color: var(--color-white);
-}
-.fa-lg {
-  font-size: var(--size-10);
-}
-.list_item {
-  list-style-type: none;
-}
-.list_item--link {
-  text-decoration: none;
-  color: var(--color-white);
-  font-size: var(--size-6);
-  flex: 1;
-}
-.list {
-  display: flex;
-  gap: var(--size-10);
-}
-.list_end {
-  margin-left: var(--width-60);
-  display: flex;
-  gap: var(--size-3);
-}
-.title_space {
-  color: var(--color-royalBlue);
-}
-
-.sub_container-right--image {
-  width: 300px;
-  height: 300px;
-}
-.installation_guide {
-  margin-bottom: var(--size-10);
-}
-
-.container,
-.installation_guide {
-  margin-top: var(--size-19);
-}
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: var(--width-100);
-  height: var(--size-20);
-  background-color: var(--color-navyBlue);
-  gap: var(--size-2);
-}
-.footer-h3 {
-  color: var(--color-white);
-}
-
-/* HOVER */
-
-.list_item--link:hover {
-  color: var(--color-blueGrotto);
-  font-weight: 400;
-}
-.btn_docs:hover {
-  background-color: var(--button-color-blue);
-}
 :root {
   --size-1: 4px;
   --size-2: 8px;
@@ -142,13 +64,19 @@ body {
   --size-18: 4.5rem;
   --size-19: 4.75rem;
   --size-20: 5rem;
+  --size-40: 18.75rem;
+  --size-28: 12.813;
   --width-100: 100%;
   --width-60: 60%;
   --width-70: 70%;
   --width-80: 80%;
+  --width-50: 50%;
+  --width-40: 40%;
+  --width-30: 30%;
   --bold-100: 100;
   --bold-200: 200;
   --bold-300: 300;
+  --bold-400: 400;
   --screen-size-sm: 40rem;
   --screen-size-md: 48rem;
   --screen-size-lg: 64rem;
