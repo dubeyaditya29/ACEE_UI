@@ -112,6 +112,7 @@
   word-wrap: break-word;
   white-space: pre-wrap;
   word-break: normal;
+  overflow-x: scroll;
 }
 .installation_guide {
   display: flex;
