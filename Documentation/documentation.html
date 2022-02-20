@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACEE.UI | DOCUMENTATION</title>
+    <link rel="icon" type="image/x-icon" href="/assets/ACEE_UI_LOGO.PNG" />
+    <link rel="stylesheet" href="/landingPage.css" />
+    <link rel="stylesheet" href="./documentation.css" />
+    <link
+      rel="stylesheet"
+      href="https://aceeui.netlify.app/stylesheet/final.style.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#" class="logo_link">
+          <i class="fas fa-place-of-worship fa-lg"></i>
+        </a>
+      </div>
+      <ul class="list">
+        <li class="list_item">
+          <a class="list_item--link" href="/index.html">HOME</a>
+        </li>
+        <li class="list_item">
+          <a class="list_item--link" href="#">DOWNLOAD</a>
+        </li>
+      </ul>
+      <ul class="list_end">
+        <li class="list_item">
+          <a class="list_item--link" href="https://twitter.com/jn_dubey">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list_item">
+          <a
+            class="list_item--link"
+            href="https://www.linkedin.com/in/aditya-dubey-47ba6870/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="list_item">
+          <a
+            class="list_item--link"
+            href="https://github.com/dubeyaditya29/ACEE_UI"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="burger-logo">
+          <i class="far fa-caret-square-down fa-lg"></i>
+        </div>
+      </div>
+    </nav>
+    <aside class="aside-navigation">
+      <ul class="aside-list">
+        <li class="aside-list_item">
+          <a class="aside-list_item--link md" href="#!">Alert</a>
+        </li>
+        <li class="aside-list_item">
+          <a class="aside-list_item--link md" href="#avatar">Avatar</a>
+        </li>
+        <li class="aside-list_item">
+          <a class="aside-list_item--link md" href="#badge">Badge</a>
+        </li>
+        <li class="aside-list_item">
+          <a class="aside-list_item--link md" href="#button">Button</a>
+        </li>
+        <li class="aside-list_item">
+          <a class="aside-list_item--link md" href="#card">Card</a>
+        </li>
+        <li class="aside-list_item">
+          <a class="aside-list_item--link md" href="#input">Input</a>
+        </li>
+        <li class="aside-list_item">
+          <a class="aside-list_item--link md" href="#image">Image</a>
+        </li>
+      </ul>
+    </aside>
+    <main class="docSite-container">
+      <div class="docSite-heading">
+        <h1 class="docSite-h1" id="alert">Alert</h1>
+      </div>
+      <div class="content-description">
+        <p class="docSite-p">
+          Alert messages can be used to notify the user about something special
+          like danger, success, information or warning.
+        </p>
+      </div>
+      <div class="docSite-implementation">
+        <h1 class="docSite-h1">Implementation</h1>
+        <p class="docSite-p"></p>
+        <div class="alert simple-alert">
+          <h3>Simple Alert Message</h3>
+          <a class="close">&times;</a>
+        </div>
+        <iframe
+          class="frame"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520simple-alert%2522%253E%250A%2520%2520%2520%2520%253Ch3%253ESimple%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <hr />
+        <div class="alert success-alert">
+          <h3>Success Alert Message</h3>
+          <a class="close">&times;</a>
+        </div>
+      </div>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253E%250A%2520%2520%2520%2520%253Ch3%253ESuccess%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <hr />
+      <div class="alert danger-alert">
+        <h3>Danger Alert Message</h3>
+        <a class="close">&times;</a>
+      </div>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520danger-alert%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EDanger%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <hr />
+      <div class="alert warning-alert">
+        <h3>Warning Alert Message</h3>
+        <a class="close">&times;</a>
+      </div>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EWarning%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <!-- AVATAR -->
+
+      <div class="docSite-heading">
+        <h1 class="docSite-h1" id="avatar">Avatar</h1>
+      </div>
+      <div class="content-description">
+        <p class="docSite-p">
+          Avatars are images that users can set as their profile picture.These
+          can be custom photos uploaded by users, or generated as Identicons as
+          a placeholder.
+        </p>
+      </div>
+      <div class="docSite-implementation">
+        <h1 class="docSite-h1">Implementation</h1>
+        <p class="docSite-p"></p>
+        <img class="avatar" src="../../assets/my-img.jpg" alt="my-profile" />
+        <iframe
+          class="frame"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522_your_img_source%2522%2520alt%253D%2522%2522%2520%252F%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <hr />
+
+        <img class="avatar-sm" src="../../assets/my-img.jpg" alt="my-profile" />
+        <iframe
+          class="frame"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-sm%2522%2520src%253D%2522your_img_source%2522%2520alt%253D%2522%2522%252F%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <hr />
+
+        <img class="avatar-md" src="../../assets/my-img.jpg" alt="my-profile" />
+        <iframe
+          class="frame"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-md%2522%2520src%253D%2522your_source_name%2522%2520alt%253D%2522%2522%2520%252F%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <hr />
+
+        <img class="avatar-lg" src="../../assets/my-img.jpg" alt="my-profile" />
+        <iframe
+          class="frame"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-lg%2522%2520src%253D%2522your_img_source%2522%2520alt%253D%2522%2522%2520%252F%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+      <hr />
+
+
+      <!-- BADGE -->
+
+
+
+      <div class="docSite-heading">
+        <h1 class="docSite-h1" id="badge">Badge</h1>
+      </div>
+      <div class="content-description">
+        <p class="docSite-p">
+          Badges are used to convey some messages/information to the user. For
+          example badge on a cart icon represents the quantity of items in a
+          cart or badge on applications represents the unseen messages on the
+          account and alot more. We have used
+          <b>
+            <a href="https://fontawesome.com/" class="font">FontAwesome</a></b
+          >
+          for all the icons you see on the page. You can use different classes
+          to customize the badge like badge-sm , badge-loc-top-left, badge-white
+          to make badge looks appealing.
+        </p>
+      </div>
+      <div class="badge-container">
+        <div class="badge">
+          <div class="fas fa-envelope icon-size-sm"></div>
+          <div class="badge-item badge-sm badge-loc-top-left badge-white">
+            9
+          </div>
+        </div>
+        <div class="badge">
+          <div class="fas fa-envelope icon-size-md"></div>
+          <div class="badge-item badge-md badge-loc-top-left badge-white">
+            99
+          </div>
+        </div>
+        <div class="badge">
+          <div class="fas fa-envelope icon-size-lg"></div>
+          <div class="badge-item badge-lg badge-loc-top-left badge-white">
+            999
+          </div>
+        </div>
+      </div>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=864.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fas%2520fa-envelope%2520icon-size-sm%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-item%2520badge-sm%2520badge-loc-top-left%2520badge-white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25209%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fas%2520fa-envelope%2520icon-size-md%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-item%2520badge-md%2520badge-loc-top-left%2520badge-white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252099%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522fas%2520fa-envelope%2520icon-size-lg%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-item%2520badge-lg%2520badge-loc-top-left%2520badge-white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520999%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <hr />
+
+      <div class="badge-container">
+        <div class="badge">
+          <div class="avatar-image">
+            <img class="avatar-sm" src="../../assets/my-img.jpg" alt="avatar" />
+            <div
+              class="badge-item badge-sm badge-loc-top-left badge-green"
+            ></div>
+          </div>
+        </div>
+        <div class="badge">
+          <div class="avatar-image">
+            <img class="avatar-md" src="../../assets/my-img.jpg" alt="avatar" />
+            <div
+              class="badge-item badge-md badge-loc-top-right badge-red"
+            ></div>
+          </div>
+        </div>
+        <div class="badge">
+          <div class="avatar-image">
+            <img class="avatar-lg" src="../../assets/my-img.jpg" alt="avatar" />
+            <div
+              class="badge-item badge-lg badge-loc-bottom-right badge-yellow"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=979&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-sm%2522%2520src%253D%2522..%252F..%252Fassets%252Fmy-img.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-item%2520badge-sm%2520badge-loc-top-left%2520badge-green%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-md%2522%2520src%253D%2522..%252F..%252Fassets%252Fmy-img.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-item%2520badge-md%2520badge-loc-top-right%2520badge-red%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-lg%2522%2520src%253D%2522..%252F..%252Fassets%252Fmy-img.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-item%2520badge-lg%2520badge-loc-bottom-right%2520badge-yellow%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <hr />
+
+
+
+
+      <!-- BUTTON -->
+
+
+
+
+
+      <div class="docSite-heading">
+        <h1 class="docSite-h1" id="button">Button</h1>
+      </div>
+      <div class="content-description">
+        <p class="docSite-p">
+          Buttons can be used to change the state of an application. This means
+          that clicking on a button should add, change, or delete any data on
+          the screen or to trigger any event.
+        </p>
+      </div>
+      <div class="button-container">
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-df btn-color-df">Button</button>
+        </a>
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-sm btn-color-df">Button</button>
+        </a>
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-md btn-color-df">Button</button>
+        </a>
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-lg btn-color-df">Button</button>
+        </a>
+      </div>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=763&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-df%2520btn-color-df%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-md%2520btn-color-df%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-lg%2520btn-color-df%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <hr />
+
+      <div class="button-container">
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-sm btn-color-df">Default</button>
+        </a>
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-sm btn-color-danger">Danger</button>
+        </a>
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-sm btn-color-secondary">Secondary</button>
+        </a>
+        <a class="hyper-link" href="#">
+          <button class="btn btn-size-sm btn-color-success">Success</button>
+        </a>
+      </div>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=763&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Secondary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <hr />
+
+
+
+      <!-- CARD -->
+
+
+
+
+      
+
+      <div class="docSite-heading">
+        <h1 class="docSite-h1" id="card">Card</h1>
+      </div>
+      <div class="content-description">
+        <p class="docSite-p">
+          Cards are used on websites to usually show a bunch of information
+          about in a comapact area.Mostly we see cards used on ecommerce
+          websites or Hotel booking sites and many more.
+        </p>
+      </div>
+      <div class="content">
+        <h2 class="heading">Card with Badge</h2>
+        <div class="card">
+          <div class="card-badge badge-item badge-md badge-loc-top-left badge-color">8% OFF</div>
+          <div class="card-image">
+              <img src="../../assets/fairmont-jaipur.jpg" alt="hotel-image">
+          </div>
+          <div class="card-title">
+              <p class="card-tile-heading">Fairmont Jaipur</p>
+              <p>&#8377;24000/- <small>1 night 2 adults</small></p>
+          </div>
+          <div class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, pariatur.</div>
+          <div class="card-footer">
+              <button class="btn btn-size-sm btn-color-df">Book Now!</button>   
+          </div>
+        </div>
+      </div>
+        <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=826&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522heading%2522%253ECard%2520with%2520Badge%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520badge-item%2520badge-md%2520badge-loc-top-left%2520badge-color%2522%253E8%2525%2520OFF%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ffairmont-jaipur.jpg%2522%2520alt%253D%2522hotel-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-tile-heading%2522%253EFairmont%2520Jaipur%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2526%25238377%253B24000%252F-%2520%253Csmall%253E1%2520night%25202%2520adults%253C%252Fsmall%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Libero%252C%2520pariatur.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253EBook%2520Now%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <hr>
+
+        <div class="content">
+          <h2 class="heading">Card with Dismiss</h2>
+          <div class="card">
+            <div class="card-badge badge-item badge-md badge-loc-top-right dismiss-color">X</div>
+            <div class="card-image">
+                <img src="../../assets/fairmont-jaipur.jpg" alt="hotel-image">
+            </div>
+            <div class="card-title">
+                <p class="card-tile-heading">Fairmont Jaipur</p>
+                <p>&#8377;24000/- <small>1 night 2 adults</small></p>
+            </div>
+            <div class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, est! Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="card-footer">
+                <button class="btn btn-size-sm btn-color-df">Book Now!</button> 
+            </div>
+          </div>
+          </div>
+          <iframe
+          class="frame"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=1169.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522heading%2522%253ECard%2520with%2520Dismiss%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520badge-item%2520badge-md%2520badge-loc-top-right%2520dismiss-color%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ffairmont-jaipur.jpg%2522%2520alt%253D%2522hotel-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-tile-heading%2522%253EFairmont%2520Jaipur%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2526%25238377%253B24000%252F-%2520%253Csmall%253E1%2520night%25202%2520adults%253C%252Fsmall%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Corrupti%252C%2520est%21%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253EBook%2520Now%21%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  
+          sandbox="allow-scripts allow-same-origin">
+          </iframe>         
+  <hr>
+  <div class="content">
+    <h2 class="heading">Card with Text Overlay</h2>
+    <div class="card">
+      <div class="card-image">
+          <img src="../../assets/fairmont-jaipur.jpg" alt="hotel-image">
+          <div class="card-title overlay">
+            <p class="card-tile-heading">Fairmont Jaipur</p>
+            <p>&#8377;24000/- <small>1 night 2 adults</small></p>
+        </div>
+      </div>
+      <div class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, est! Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+      <div class="card-footer">
+          <button class="btn btn-size-sm btn-color-df">Book Now!</button> 
+      </div>
+    </div>
+    <iframe
+    class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=1206.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522heading%2522%253ECard%2520with%2520Text%2520Overlay%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ffairmont-jaipur.jpg%2522%2520alt%253D%2522hotel-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-tile-heading%2522%253EFairmont%2520Jaipur%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2526%25238377%253B24000%252F-%2520%253Csmall%253E1%2520night%25202%2520adults%253C%252Fsmall%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Corrupti%252C%2520est%21%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253EBook%2520Now%21%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+  <hr>
+
+  <div class="content">
+    <h2 class="heading">Text Only Card</h2>
+    <div class="card only-text">
+      <div class="card-title" >Card With Only Text</div>
+      <div class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad numquam voluptatum nihil sapiente natus rem aliquid voluptas omnis ratione accusantium cumque quibusdam inventore distinctio debitis animi porro, qui possimus exercitationem sint ipsum voluptatem, similique ipsa fuga. Aut nesciunt neque, distinctio sapiente a minus 
+    </div>
+</div>
+</div>
+<iframe
+  class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=907&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522heading%2522%253EText%2520Only%2520Card%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520only-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%2520%253ECard%2520With%2520Only%2520Text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ad%2520numquam%2520voluptatum%2520nihil%2520sapiente%2520natus%2520rem%2520aliqui%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+<h2 class="heading">Horizontal Card</h2>
+<div class="card hoz-card">
+  <div class="card-image">
+      <div class="hoz">
+          <img src="../../assets/fairmont-jaipur.jpg" alt="hotel-image">
+      </div>
+      <div class="card-title hoz">
+          <p class="card-tile-heading">Fairmont Jaipur</p>
+          <p>&#8377;24000/- <small>1 night 2 adults</small></p>
+      </div>
+  </div>
+  <div class="card-footer">
+      <button class="btn btn-size-sm btn-color-df">Book Now!</button>
+  </div>
+</div>
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=907&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520hoz-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hoz%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ffairmont-jaipur.jpg%2522%2520alt%253D%2522hotel-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520hoz%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-tile-heading%2522%253EFairmont%2520Jaipur%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2526%25238377%253B24000%252F-%2520%253Csmall%253E1%2520night%25202%2520adults%253C%252Fsmall%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253EBook%2520Now%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<hr>
+<h2 class="heading">Card with Shadow</h2>
+<div class="card shadow">
+  <div class="card-badge badge-item badge-md badge-loc-top-left badge-color">8% OFF</div>
+  <div class="card-image">
+      <img src="../../assets/fairmont-jaipur.jpg" alt="hotel-image">
+  </div>
+  <div class="card-title">
+      <p class="card-tile-heading">Fairmont Jaipur</p>
+      <p>&#8377;24000/- <small>1 night 2 adults</small></p>
+  </div>
+  <div class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, pariatur.</div>
+  <div class="card-footer">
+      <button class="btn btn-size-sm btn-color-df">Book Now!</button>
+  </div>
+</div>
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=835&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520badge-item%2520badge-md%2520badge-loc-top-left%2520badge-color%2522%253E8%2525%2520OFF%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Ffairmont-jaipur.jpg%2522%2520alt%253D%2522hotel-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-tile-heading%2522%253EFairmont%2520Jaipur%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2526%25238377%253B24000%252F-%2520%253Csmall%253E1%2520night%25202%2520adults%253C%252Fsmall%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Libero%252C%2520pariatur.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253EBook%2520Now%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+ 
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+
+<div class="docSite-heading">
+  <h1 class="docSite-h1" id="input">Input</h1>
+</div>
+<div class="content-description">
+  <p class="docSite-p">
+    
+  </p>
+</div>
+
+
+<div class="input-container">
+  <div class="input">
+      <input type="text" class="df-input input-sm border-radius" placeholder="Enter Name"/>
+  </div>
+  <div class="input">
+      <input type="text" class="df-input input-md border-radius" placeholder="Enter Name"/>
+  </div>
+</div>
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=1003&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522df-input%2520input-sm%2520border-radius%2522%2520placeholder%253D%2522Enter%2520Name%2522%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522df-input%2520input-md%2520border-radius%2522%2520placeholder%253D%2522Enter%2520Name%2522%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<hr>
+
+<div class="input-container">
+  <div class="input">
+      <input type="password" class="df-input input-md border-radius"/>
+      <div class="see-pass">
+          <i class="fas fa-eye"></i>
+      </div>
+  </div>
+</div>
+
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=917.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522df-input%2520input-md%2520border-radius%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522see-pass%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-eye%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=javascript&width=1019.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520const%2520content%2520%253D%2520document.querySelector%28%2522%2523inp-password%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520const%2520seePassword%2520%253D%2520document.querySelector%28%2522%2523pass-icon%2522%29%253B%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520seePassword.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520const%2520type%2520%253D%2520content.getAttribute%28%2522type%2522%29%2520%253D%253D%253D%2520%2522password%2522%2520%253F%2520%2522text%2522%2520%253A%2520%2522password%2522%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520content.setAttribute%28%2522type%2522%252C%2520type%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%29%253B"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+
+<form action="#" class="form">
+  <h2 class="heading-main">Login</h2>
+  <label for="username" class="username">Enter Username</label>
+  <input class="df-input input-md border-radius" name="username"/>
+  <label for="password" class="password">Enter Password</label>
+  <div class="input-container">
+      <div class="input">
+          <input type="password" class="df-input input-md border-radius"/>
+          <div class="see-pass">
+              <i class="fas fa-eye"></i>
+          </div>
+      </div>
+  </div>
+  
+  <div class="submit-btn">
+      <a class="hyper-link" href="#">
+          <button class="btn btn-size-sm btn-color-df">Login</button>
+      </a>
+      <a href="" class="forgot-pass-link">forgot password?</a>
+      <a href="" class="sign-up">Sign Up</a>
+  </div>
+</form>
+
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=947&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cform%2520action%253D%2522%2523%2522%2520class%253D%2522form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522heading-main%2522%253ELogin%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522username%2522%253EEnter%2520Username%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522df-input%2520input-md%2520border-radius%2522%2520name%253D%2522username%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522password%2522%253EEnter%2520Password%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522df-input%2520input-md%2520border-radius%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522see-pass%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-eye%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522submit-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522hyper-link%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-size-sm%2520btn-color-df%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522forgot-pass-link%2522%253Eforgot%2520password%253F%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522sign-up%2522%253ESign%2520Up%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+
+<div class="docSite-heading">
+  <h1 class="docSite-h1" id="image">Image</h1>
+</div>
+<div class="content-description">
+  <p class="docSite-p">
+    Visual information can be processed 60,000 times faster than text and is 
+            easier to remember and that is why a responsive and appealing image will give your webiste
+            an extra edge.
+  </p>
+</div>
+
+<div class="image-container">
+  <img class="round-image" src="../../assets/my-img.jpg" alt="rounded image">
+  <img class="round-image" src="../../assets/pexels-luis-del-río-15286.jpg" alt="rounded image">
+  <img class="round-image" src="../../assets/pexels-roberto-nickson-2775196.jpg" alt="rounded image">
+</div>
+
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=834.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522your_img_source%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522your_img_source%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522your_img_source%2522%2520alt%253D%2522%2522%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+
+<div class="image-container">
+  <img class="responsive-image" src="../../assets/pexels-luis-del-río-15286.jpg" alt="rounded image">
+</div>
+
+<iframe
+class="frame"
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=615&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522responsive-image%2522%2520src%253D%2522your_img_source%2522%2520alt%253D%2522rounded%2520image%2522%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+    </main>
+    <script
+      src="https://kit.fontawesome.com/daef01c36c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+    <script src="./documentationScript.js"></script>
+  </body>
+</html>

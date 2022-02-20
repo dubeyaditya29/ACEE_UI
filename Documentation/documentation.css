@@ -1,0 +1,70 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.aside-navigation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 10vh;
+  padding-top: 3vh;
+  height: 100%;
+  justify-content: flex-start;
+  background-color: var(--color-navyBlue);
+  width: var(--width-18);
+  align-items: center;
+}
+.aside-list_item {
+  list-style-type: none;
+  margin: var(--size-7);
+}
+.aside-list_item--link {
+  text-decoration: none;
+  color: var(--color-white);
+}
+.md {
+  font-size: var(--size-8);
+}
+.list {
+  visibility: hidden;
+}
+
+/* HOVER */
+
+.aside-list_item--link:hover {
+  color: var(--color-blueGrotto);
+}
+
+/* SELECTION */
+
+.aside-list_item--link:selection {
+  color: var(--color-blueGrotto);
+}
+
+/* MAIN CONTAINER */
+
+hr {
+  width: var(--size-1);
+}
+.docSite-implementation {
+  overflow: visible;
+}
+.docSite-container {
+  display: flex;
+  width: var(--width-80);
+  flex-direction: column;
+  position: absolute;
+  top: var(--width-17);
+  left: var(--width-20);
+  scroll-behavior: auto;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: var(--size-6);
+  overflow-y: scroll;
+}
+.docSite-h1 {
+  color: var(--color-navyBlue);
+  border-bottom: var(--size-1) solid var(--color-blueGrotto);
+  display: inline-block;
+  margin-bottom: var(--size-2);
+}
